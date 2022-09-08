@@ -18,7 +18,8 @@ shift+4 （$） 移动到行尾
 1+shift+g 移动到页头，数字  
 shift+g 移动到页尾  
 数字+shift+g 移动到目标行  
-![image](https://user-images.githubusercontent.com/57780019/189172215-b6b574c6-1a3f-40f7-9ab5-7cb517ffbcb1.png)  
+
+![image](img\vim键盘图.png)  
 ### (2)编辑模式  
 在一般模式中可以进行删除、复制、粘贴等的动作，但是却无法编辑文件内容的！要等到你按下『i, I, o, O, a, A』等任何一个字母之后才会进入编辑模式。注意了！通常在Linux中，按下这些按键时，在画面的左下方会出现『INSERT或REPLACE』的字样，此时才可以进行编辑。而如果要回到一般模式时， 则必须要按下『Esc』这个按键即可退出编辑模式。  
 
@@ -50,7 +51,7 @@ O 当前光标行的上一行
 2）案例实操  
 （1）强制保存退出  
 :wq!  
-![image](https://user-images.githubusercontent.com/57780019/189175323-8f4a11a8-588d-4699-b21b-d00839855ba0.png)
+![image](img/模式切换图.png)
 
 
 
